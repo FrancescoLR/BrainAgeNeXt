@@ -23,4 +23,5 @@ To get started..
 ..
 
 ## License
+This repository, FrancescoLR/BrainAgeNeXt, is licensed under the Apache License 2.0. This means you are free to use, modify, and distribute the code, provided that you include a copy of the license in any distributed version of the project and comply with its terms. For more details, please refer to the [LICENSE](LICENSE) file in this repository.
 
