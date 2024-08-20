@@ -4,7 +4,6 @@ Welcome to the code repository of [BrainAgeNeXt](https://doi.org/10.1101/2024.08
 
 ## Table of Contents
 - [Introduction](#introduction)
-- [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
 - [References](#references)
@@ -15,9 +14,11 @@ BrainAgeNeXt is a deep learning model designed to predict brain age with high ac
 
 ## Installation
 To get started install all requirements of the [MedNeXt repository](https://github.com/MIC-DKFZ/MedNeXt).
+Next..
 
 ## Usage
-To get started..
+First, preprocess all images by performing skull stripping on the T1-weighted MRI scans (SynthSeg from Freesurfer is the preferred tool), followed by an affine registration to the MNI 152 standard space using ANTs.
+
 
 ## References
 Please cite the following papers if using any code from this project:
