@@ -14,7 +14,7 @@ Welcome to the code repository of BrainAgeNeXt, a novel deep learning approach t
 BrainAgeNeXt is a deep learning model designed to predict brain age with high accuracy across different MRI scanning conditions. The model builds on the MedNeXt framework, inspired by the ConvNeXt blocks.
 
 ## Installation
-To get started..
+To get started install all requirements of the [MedNeXt repository](https://github.com/MIC-DKFZ/MedNeXt).
 
 ## Usage
 To get started..
