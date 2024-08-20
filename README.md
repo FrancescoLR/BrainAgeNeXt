@@ -24,7 +24,7 @@ Please cite the following papers if using any code from this project:
 
 1. **La Rosa, F. et al. (2024).** *BrainAgeNeXt: Advancing Brain Age Modeling for Individuals with Multiple Sclerosis.* medRxiv. [https://doi.org/10.1101/2024.08.10.24311686](https://doi.org/10.1101/2024.08.10.24311686)
 
-2. **Roy, S. et, al (2023).** *Roy, Saikat, et al. "Mednext: transformer-driven scaling of convnets for medical image segmentation.* MICCAI. [https://rdcu.be/dRt53](https://rdcu.be/dRt53)
+2. **Roy, S. et, al (2023).** *Mednext: transformer-driven scaling of convnets for medical image segmentation.* MICCAI. [https://rdcu.be/dRt53](https://rdcu.be/dRt53)
 
 3. **Liu, Z. et al. (2022).** *A convnet for the 2020s.* arXiv. [https://doi.org/10.48550/arXiv.2201.03545](
 https://doi.org/10.48550/arXiv.2201.03545)
