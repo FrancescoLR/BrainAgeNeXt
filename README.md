@@ -23,7 +23,7 @@ First, preprocess all images by performing skull stripping on the T1-weighted MR
 ## References
 Please cite the following papers if using any code from this project:
 
-1. **La Rosa, F. et al. (2024).** *BrainAgeNeXt: Advancing Brain Age Modeling for Individuals with Multiple Sclerosis.* medRxiv. [https://doi.org/10.1101/2024.08.10.24311686](https://doi.org/10.1101/2024.08.10.24311686)
+1. **La Rosa, F. et al. (2024).** *BrainAgeNeXt: Advancing Brain Age Modeling for Individuals with Multiple Sclerosis.* Imaging Neuroscience (2025). [https://doi.org/10.1101/2024.08.10.24311686](https://doi.org/10.1162/imag_a_00487)
 
 2. **Roy, S. et, al (2023).** *Mednext: transformer-driven scaling of convnets for medical image segmentation.* MICCAI. [https://rdcu.be/dRt53](https://rdcu.be/dRt53)
 
