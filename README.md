@@ -14,10 +14,11 @@ BrainAgeNeXt is a deep learning model designed to predict brain age with high ac
 
 ## Installation
 To get started install all requirements of the [MedNeXt repository](https://github.com/MIC-DKFZ/MedNeXt).
-Next..
+Next install our [customized MedNeXt repository](https://github.com/FrancescoLR/MedNeXt). 
 
 ## Usage
-First, preprocess all images by performing skull stripping on the T1-weighted MRI scans (SynthSeg from Freesurfer is the preferred tool), followed by an affine registration to the MNI 152 standard space using ANTs.
+First, preprocess all images by performing skull stripping on the T1-weighted MRI scans (SynthSeg from Freesurfer is the preferred tool), followed by an affine registration to the MNI 152 standard space and an N4 bias field correction using ANTs.
+Next, run the Brain_estimation.py script to predict brain age on your data.
 
 
 ## References
