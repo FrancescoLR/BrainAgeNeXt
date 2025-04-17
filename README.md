@@ -16,16 +16,22 @@ BrainAgeNeXt is a deep learning model designed to predict brain age with high ac
 
 ## Installation
 ### Create and activate a new conda environment:
+```bash
 conda create -n brainage python=3.11
 conda activate brainage
+```
 
 ### Clone our MedNeXt repository and install all packages:
- git clone https://github.com/FrancescoLR/MedNeXt.git
- cd MedNeXt/
- pip install -e .
+```bash
+git clone https://github.com/FrancescoLR/MedNeXt.git
+cd MedNeXt/
+pip install -e .
+```
 
 ### Download the models and inference script:
+```bash
 git clone https://huggingface.co/FrancescoLR/BrainAgeNeXt
+```
 
 
 ## Usage
