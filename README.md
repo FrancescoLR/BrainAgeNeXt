@@ -15,13 +15,27 @@ UPDATE: A demo of BrainAgeNeXt is available here: https://huggingface.co/spaces/
 BrainAgeNeXt is a deep learning model designed to predict brain age with high accuracy across different MRI scanning conditions. The model builds on the MedNeXt framework [2], inspired by the ConvNeXt blocks [3].
 
 ## Installation
-To get started install all requirements of the [MedNeXt repository](https://github.com/MIC-DKFZ/MedNeXt).
-Next install our [customized MedNeXt repository](https://github.com/FrancescoLR/MedNeXt). 
+# Create and activate a new conda environment:
+conda create -n brainage python=3.11
+conda activate brainage
+
+# Clone our MedNeXt repository and install all packages:
+ git clone https://github.com/FrancescoLR/MedNeXt.git
+ cd MedNeXt/
+ pip install -e .
+
+# Download the models and inference script:
+git clone https://huggingface.co/FrancescoLR/BrainAgeNeXt
+
 
 ## Usage
 First, preprocess all images by performing skull stripping on the T1-weighted MRI scans (SynthSeg from Freesurfer is the preferred tool), followed by an affine registration to the MNI 152 standard space and an N4 bias field correction using ANTs.
-Next, run the Brain_estimation.py script to predict brain age on your data.
+Next, run the Brain_estimation.py script to predict brain age on your data:
 
+cd BrainAgeNeXt
+python BrainAge_estimation.py csv_file.csv
+
+where the csv file has columns Path and Age with the full path to the pre-processed nifti files and their relative chronological age. 
 
 ## References
 Please cite the following papers if using any code from this project:
