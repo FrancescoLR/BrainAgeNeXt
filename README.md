@@ -28,7 +28,7 @@ cd MedNeXt/
 pip install -e .
 ```
 
-### Download the models and inference script:
+### Download the models and the inference script:
 ```bash
 git clone https://huggingface.co/FrancescoLR/BrainAgeNeXt
 ```
@@ -36,10 +36,12 @@ git clone https://huggingface.co/FrancescoLR/BrainAgeNeXt
 
 ## Usage
 First, preprocess all images by performing skull stripping on the T1-weighted MRI scans (SynthSeg from Freesurfer is the preferred tool), followed by an affine registration to the MNI 152 standard space and an N4 bias field correction using ANTs.
-Next, run the Brain_estimation.py script to predict brain age on your data:
+### Run Brain_estimation.py script to predict brain age on your data:
 
+```bash
 cd BrainAgeNeXt
 python BrainAge_estimation.py csv_file.csv
+```
 
 where the csv file has columns Path and Age with the full path to the pre-processed nifti files and their relative chronological age. 
 
