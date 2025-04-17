@@ -2,7 +2,7 @@
 
 Welcome to [BrainAgeNeXt](https://doi.org/10.1162/imag_a_00487), a novel deep learning approach to predict brain age from T1-weighted MRI scans acquired at *any* magnetic field strength.
 
-**UPDATE**: A demo of BrainAgeNeXt is available [here](https://huggingface.co/spaces/FrancescoLR/BrainAgeNeXt)
+**UPDATE**: A demo of BrainAgeNeXt is available [here](https://huggingface.co/spaces/FrancescoLR/BrainAgeNeXt).
 The current repository contains the installation and usage instructions only.
 
 ## Table of Contents
