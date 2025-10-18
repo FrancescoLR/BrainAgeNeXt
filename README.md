@@ -36,7 +36,11 @@ git clone https://huggingface.co/FrancescoLR/BrainAgeNeXt
 
 
 ## Usage
-First, preprocess all images by performing skull stripping on the T1-weighted MRI scans (SynthSeg from Freesurfer is the preferred tool), followed by an affine registration to the MNI 152 standard space and an N4 bias field correction using ANTs.
+First, preprocess all images by performing:
+1. Skull-stripping of the T1-weighted MRI scans (SynthSeg from Freesurfer is the preferred tool)
+2. N4 bias field correction using ANTs
+3. Affine registration to the FSL MNI 152 standard space
+   
 ### Run the inference script to predict brain age on your data:
 
 ```bash
